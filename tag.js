@@ -1,8 +1,8 @@
   client.on("userUpdate", async function(eskiii, yeniii) {
-    const guildID = "1008689881729470585"//sunucu-id
-    const roleID = "1008778595394662454"//taglı_rol
+    const guildID = ""//sunucu-id
+    const roleID = ""//taglı_rol
     let tag = ["athe","Athe","athê","Athê"]// taglar
-    const log2 = '1009124899396268043' // log kanalı        
+    const log2 = "" // log kanalı        
   
     const guildd22 = client.guilds.cache.get(guildID)
     const role = guildd22.roles.cache.find(roleInfo => roleInfo.id === roleID)
